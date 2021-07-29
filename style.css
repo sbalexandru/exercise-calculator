@@ -1,0 +1,93 @@
+.containerCalc {
+  width: 505px;
+  height: 600px;
+  border: 2px solid rgb(143, 143, 143);
+  margin: 0 auto;
+  display: block;
+  margin-top: 100px;
+}
+
+.ecran {
+  display: flex;
+  justify-content: flex-end;
+  height: 100px;
+  align-items: center;
+  background-color: black;
+  color: #ffffff;
+}
+.containerCalc button,
+p {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.line {
+  display: flex;
+  height: 100px;
+}
+
+.c {
+  width: 50%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(230, 105, 32);
+  color: #ffffff;
+}
+.c:hover {
+  background-color: rgb(226, 132, 77);
+}
+.c:active {
+  background-color: rgb(231, 103, 29);
+}
+
+.btnPort {
+  width: 25%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(230, 105, 32);
+  color: #ffffff;
+}
+.btnPort:hover {
+  background-color: rgb(226, 132, 77);
+}
+.btnPort:active {
+  background-color: rgb(231, 103, 29);
+}
+
+.btn {
+  width: 25%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(216, 212, 212);
+}
+.btn:hover {
+  background-color: rgb(250, 243, 243);
+}
+.btn:active {
+  background-color: rgb(139, 139, 139);
+}
+
+.zero {
+  width: 75%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-color: rgb(216, 212, 212);
+}
+.zero:hover {
+  background-color: rgb(250, 243, 243);
+}
+.zero:active {
+  background-color: rgb(139, 139, 139);
+}
