@@ -5,6 +5,11 @@
   margin: 0 auto;
   display: block;
   margin-top: 100px;
+  border-radius: 16px;
+  background-color: black;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .ecran {
@@ -14,9 +19,11 @@
   align-items: center;
   background-color: black;
   color: #ffffff;
+  border-radius: 15px 15px 0 0;
 }
 .containerCalc button,
-p {
+p,
+strong {
   font-size: 50px;
   cursor: pointer;
 }
@@ -84,10 +91,15 @@ p {
   align-items: center;
   height: 100px;
   background-color: rgb(216, 212, 212);
+  border-radius: 0 0 0 15px;
 }
 .zero:hover {
   background-color: rgb(250, 243, 243);
 }
 .zero:active {
   background-color: rgb(139, 139, 139);
+}
+
+.egal {
+  border-radius: 0 0 15px 0;
 }
