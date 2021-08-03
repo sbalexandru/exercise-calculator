@@ -1,3 +1,6 @@
+body {
+  background-color: grey;
+}
 .containerCalc {
   width: 505px;
   height: 600px;
